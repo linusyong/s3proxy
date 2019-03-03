@@ -1,1 +1,1 @@
-* This is a test
+# s3proxy
