@@ -1,7 +1,7 @@
 all:	depensure build
 
 build:
-	go build
+	go build -o bin/s3proxy
 
 depensure:
 	dep ensure
