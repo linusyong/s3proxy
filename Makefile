@@ -13,5 +13,5 @@ s3up:
 s3down:
 	docker-compose rm -f -s localstack
 
-clean:	s3down
+clean:
 	@rm -rf s3proxy
